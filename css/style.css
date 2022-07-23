@@ -54,3 +54,18 @@ ul {
 /* layout
 --------------------------------------------------- */
   
+/* global navigation bar */
+.g-nav {
+    background-color: #44b5ae;
+    width: 250px;
+    height: 100vh;
+}
+
+.grade a {
+    color: #fff;
+}
+
+.grade a:hover{
+    background-color: #fff;
+    color: #44b5ae;
+}
