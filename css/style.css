@@ -205,6 +205,31 @@ nav li {
     transition: 1.5s ease-in-out;
 }
 
+
+/* スタート画面
+------------------------------------------------------ */
+.page-ttl {
+    color: #fff;
+    font-size: 70px;
+    letter-spacing: 20px;
+    justify-content: center;
+}
+
+.yellow {
+    color: #ffdd79;
+    font-size: 100px;
+    justify-content: center;
+}
+
+.main-txt {
+    background-color: #fff;
+    padding: 30px;
+    width: 300px;
+    border-radius: 40px;
+    justify-content: center;
+}
+
+
 /* 結果画面
 ----------------------------------------------- */
 /* 100点レイアウトここから */
@@ -566,8 +591,6 @@ nav li {
     font-size: 100px;
 }
 .feedback {
-    /* position: relative;
-    top: 180px; */
     justify-content: center;
 }
 
@@ -587,22 +610,14 @@ nav li {
     height: 400px;
 }
 
-
-a.btn {
-    padding: 18px 24px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-
 .btn--orange,
 a.btn--orange {
   color: #fff;
-  background-color: #e86c5d
-}
-.btn--orange:hover,
-a.btn--orange:hover {
-    
+  background-color: #e86c5d;
+  padding: 18px 24px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
 
 a.btn--radius {
