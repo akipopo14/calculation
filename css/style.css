@@ -45,6 +45,10 @@ ul {
     list-style: none;
 }
 
+img {
+    display: block;
+}
+
 /* utility
 -------------------------------------------------- */
 .d-flex {
@@ -58,10 +62,10 @@ ul {
 /* 共通部分 nav -------------------------------*/
 .g-nav {
     background-color: #44b5ae;
-    width: 200px;
+    width: 20vw;
     height: 100vh;
-    position: fixed;
-    left: 0;
+    /* position: fixed;
+    left: 0; */
 }
 
 .nav-logo {
@@ -69,7 +73,7 @@ ul {
 }
 
 nav li {
-    width: 200px;
+    width: 20vw;
     /* padding: 14px; */
     border-top: 1px solid #008080;
     letter-spacing: 2px;
@@ -99,3 +103,97 @@ nav li {
 }
 
 /* 共通部分nav ここまで ---------------------------------- */
+/* top-page
+----------------------------------- */
+.top-page {
+    background-color: #66ccff;  
+    overflow: hidden;
+    height: 100vh;
+    width: 80vw;
+}
+
+.top-logo,
+.top-cat {
+    width: 100%;
+    justify-content: center;
+}
+
+.top-logo img{
+    width: 50%;
+    margin-top: 40px;
+}
+
+.left-cloud img{
+    position: relative;
+    top: 100px;
+    width: 250px;
+}
+
+.right-cloud {
+    top: 90px;
+    justify-content: end;
+}
+
+.top-cat img{
+    position: fixed;
+    bottom: 0;
+    height: 500px;
+}
+
+.addition img {
+    position: absolute;
+    right: 170px;
+    top: -380px;
+}
+ 
+.subtraction img {
+    position: absolute;
+    left: 100px;
+    top: -180px;
+}
+
+.multiplication img {
+    position: absolute;
+    right: 40px;
+    top: -60px;
+}
+
+.division img {
+    position: absolute;
+    left: 200px;
+    top: -390px;
+}
+
+@keyframes fuwafuwa {
+    0% {
+      transform:translate(0, 0) ;
+    }
+    50% {
+      transform:translate(0, -10px) ;
+    }
+    100% {
+      transform:translate(0, 0) ;
+    }
+}
+
+.fuwafuwa {
+    animation: fuwafuwa 2s infinite ease-in-out .8s alternate;
+    transition: 1.5s ease-in-out;
+}
+
+@keyframes yurayura {
+    0% {
+      transform:translate(0, 0) ;
+    }
+    50% {
+      transform:translate(0, 10px) ;
+    }
+    100% {
+      transform:translate(0, 0) ;
+    }
+}
+
+.yurayura {
+    animation: fuwafuwa 3s infinite ease-in-out .8s alternate;
+    transition: 1.5s ease-in-out;
+}
