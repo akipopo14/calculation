@@ -222,12 +222,82 @@ nav li {
 }
 
 .main-txt {
+    justify-content: center;
+}
+
+.main-txt p {
     background-color: #fff;
     padding: 30px;
     width: 300px;
     border-radius: 40px;
+}
+
+.left-cloud-start img{
+    position: relative;
+    top: -100px;
+    width: 250px;
+}
+
+.right-cloud-start {
+    justify-content: end;
+    top: -600px;
+}
+
+.start-cat {
+    width: 14%;
+    position: absolute;
+    bottom: 30%;
+    left: 40%;
+}
+
+.start-btn {
     justify-content: center;
 }
+
+.btn--start,
+a.btn--start {
+  color: #fff;
+  font-size: 44px;
+  text-align: center;
+  width: 40%;
+  background-color: #e86c5d;
+  padding: 20px 40px;
+  position: absolute;
+  bottom: 16%;
+}
+
+.bottom-cloud {
+    justify-content: end;
+    height: 90px;
+    position:fixed;
+    bottom: 0;
+    right: 70px;
+}
+
+/* 問題ページ
+-------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* 結果画面
